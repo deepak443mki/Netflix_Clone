@@ -130,6 +130,7 @@ img.logo {
     transform: scale(1.2);
 }
 
+/* play button hover effect */
 button.watchnow {
     display: flex;
     background-color: rgba(0, 0, 0, 0.853);
@@ -145,4 +146,8 @@ button.watchnow {
 button.watchnow > img {
     height: 20px;
     margin-right: 5px;
+}
+
+.watchnow:hover {
+    transform: scale(1.1);
 }
