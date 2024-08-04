@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
 
 body {
+  size: inherit;
   background-color: black !important;
   margin: 0px;
 }
@@ -157,10 +158,37 @@ div.mb-3 {
   display: flex;
   justify-content: center;
   max-width: 70vw;
-  margin: auto;
+  margin: 100px auto;
   color: white;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (max-width: 1300px) {
+  .first {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  secImg {
+    position: relative;
+    max-width: 100%;
+  }
+
+  .secImg video {
+    height: 290px;
+    position: absolute;
+    top: 86px;
+    right: 40px;
+    z-index: -2;
+  }
+
+
+
 }
 
 .secImg {
@@ -256,19 +284,95 @@ div.e15c37ii3 {
   flex-shrink: 0;
 }
 
+
+/* faq section  */
 section.faq {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-top: 70px;
+  margin: 55px;
+  box-sizing: content-box;
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+  color: white;
 }
 
-section>.btn:hover {
-  background-color: rgb(207, 50, 50);
+section.faq>h2 {
+  margin: 45px 0px 25px 0px;
+  font-size: 54px;
+  font-weight: 900;
 }
+
+button.accordion {
+  font-size: 27px !important;
+  width: 74% !important;
+  height: 13vh !important;
+  background-color: #2d2d2d;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  margin: 2px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #5e5e5e;
+}
+
+.accordion:after {
+  content: '\002B';
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2715";
+}
+
+.panel {
+  width: 74%;
+  padding: 0 18px;
+  background-color: #2d2d2d;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
 
 footer {
+  color: rgb(179 179 179);
+  max-width: 62vw;
+  margin: 50px auto;
+  padding: 34px;
+}
+
+.footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* color: white; */
+  max-width: 60vw;
+  margin: auto;
+
+}
+
+.footerLink {
+  color: rgb(179 179 179) !important;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.footer-item {
+  /* color: white; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+#netflixIndia {
+  margin-top: 5px;
 }
