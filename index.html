@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="netflix_logo_icon.ico" type="image/x-icon">
+  <link rel="icon" href="netflix_logo_icon.ico" type="image/x-icon" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -60,10 +60,11 @@
             <div class="form-floating mb-3">
               <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
               <label for="floatingInput" aria-required="true">Email address</label>
-
             </div>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4 signup" fdprocessedid="i1uci7"
-              onclick="goSignUp()">Get Started ❯</button>
+            <button style="min-width: fit-content" type="button" class="btn btn-outline-secondary btn-lg px-4 signup"
+              fdprocessedid="i1uci7" onclick="goSignUp()">
+              Get Started ❯
+            </button>
           </div>
         </div>
       </div>
@@ -147,125 +148,138 @@
 
   <!-- faq section      -->
   <section class="faq">
-    <h2 style="color: #ffffff; font-size: 54px; font-weight: 800;">Frequently Asked Questions</h2>
-    <div class="p-0 m-0 border-0 bd-example m-0 border-0">
+    <h2>Frequently Asked Questions</h2>
+    <button class="accordion">What is Netflix?</button>
+    <div class="panel">
+      <p>
+        Netflix is a streaming service that offers a wide variety of
+        award-winning TV shows, movies, anime, documentaries and more – on
+        thousands of internet-connected devices. You can watch as much as you
+        want, whenever you want, without a single ad – all for one low monthly
+        price. There's always something new to discover, and new TV shows and
+        movies are added every week!
+      </p>
+    </div>
 
+    <button class="accordion">How much does Netflix cost?</button>
+    <div class="panel">
+      <p>
+        Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
+        streaming device, all for one fixed monthly fee. Plans range from ₹149
+        to ₹649 a month. No extra costs, no contracts.
+      </p>
+    </div>
 
-      <!-- faq-1        -->
-      <button
-        style=" margin: 10px 0px 1px 0px;display: flex; align-items: center; justify-content: space-between; height: 90px; width: 80vw; font-size: 27px; font-weight: 400; text-align: left; background-color: #2d2d2d; border: none; border-radius: 1px"
-        class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1"
-        aria-expanded="false" aria-controls="collapseExample1" fdprocessedid="5ub9c">
-        What is Netflix?
-        <img style="height: 27px;" src="plus.png" alt="plus">
+    <button class="accordion">Where can I watch?</button>
+    <div class="panel">
+      <p>
+        Watch anywhere, anytime. Sign in with your Netflix account to watch
+        instantly on the web at netflix.com from your personal computer or on
+        any internet-connected device that offers the Netflix app, including
+        smart TVs, smartphones, tablets, streaming media players and game
+        consoles. <br />
+
+        You can also download your favourite shows with the iOS or Android
+        app. Use downloads to watch while you're on the go and without an
+        internet connection. Take Netflix with you anywhere.
+      </p>
+    </div>
+
+    <button class="accordion">How do I cancel?</button>
+    <div class="panel">
+      <p>
+        Netflix is flexible. There are no annoying contracts and no
+        commitments. You can easily cancel your account online in two clicks.
+        There are no cancellation fees – start or stop your account anytime.
+      </p>
+    </div>
+
+    <button class="accordion">What can I watch on Netflix?</button>
+    <div class="panel">
+      <p>
+        Netflix has an extensive library of feature films, documentaries, TV
+        shows, anime, award-winning Netflix originals, and more. Watch as much
+        as you want, anytime you want.
+      </p>
+    </div>
+
+    <button class="accordion">Is Netflix good for kids?</button>
+    <div class="panel">
+      <p>
+        The Netflix Kids experience is included in your membership to give
+        parents control while kids enjoy family-friendly TV shows and films in
+        their own space. <br />
+
+        Kids profiles come with PIN-protected parental controls that let you
+        restrict the maturity rating of content kids can watch and block
+        specific titles you don’t want kids to see.
+      </p>
+    </div>
+
+    <span style="margin-top: 55px; margin-bottom: 15px">Ready to watch? Enter your email to create or restart your
+      membership.</span>
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
+        <label for="floatingInput" aria-required="true">Email address</label>
+      </div>
+      <button style="min-width: fit-content" type="button" class="btn btn-outline-secondary btn-lg px-4 signup"
+        fdprocessedid="i1uci7" onclick="goSignUp()">
+        Get Started ❯
       </button>
-
-      <div class="collapse" id="collapseExample1"
-        style=" border: none; border-radius: 0px; height: 90px; width: 80vw; color: #ffffff; font-size: 27px; font-weight: 400;">
-        <div class="card card-body" style="background-color: #2d2d2d;">
-          Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
-          documentaries and more – on thousands of internet-connected devices. <br>
-
-          You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price.
-          There's always something new to discover, and new TV shows and movies are added every week!
-        </div>
-      </div>
-      <!-- faq-2    -->
-      <div
-        style=" margin: 10px 0px 10px 0px;display: flex; align-items: center; justify-content: space-between; height: 90px; width: 80vw; font-size: 27px; font-weight: 400; text-align: left; background-color: #2d2d2d; border: none; border-radius: 1px"
-        class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2"
-        aria-expanded="false" aria-controls="collapseExample2" fdprocessedid="5ub9c">
-        How much does Netflix cost?
-        <img style="height: 27px;" src="plus.png" alt="plus">
-      </div>
-
-      <div class="collapse" id="collapseExample2"
-        style=" border: none; border-radius: 0px; height: 90px; width: 80vw; color: #ffffff; font-size: 27px; font-weight: 400;">
-        <div class="card card-body" style="background-color: #2d2d2d;">
-          Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly
-          fee. Plans range from ₹149 to ₹649 a month. No extra costs, no contracts.
-        </div>
-      </div>
-
-      <!-- faq-3      -->
-      <div
-        style=" margin: 10px 0px 10px 0px;display: flex; align-items: center; justify-content: space-between; height: 90px; width: 80vw; font-size: 27px; font-weight: 400; text-align: left; background-color: #2d2d2d; border: none; border-radius: 1px"
-        class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3"
-        aria-expanded="false" aria-controls="collapseExample3" fdprocessedid="5ub9c">
-        Where can I watch?
-        <img style="height: 27px;" src="plus.png" alt="plus">
-      </div>
-
-      <div class="collapse" id="collapseExample3"
-        style=" border: none; border-radius: 0px; height: 90px; width: 80vw; color: #ffffff; font-size: 27px; font-weight: 400;">
-        <div class="card card-body" style="background-color: #2d2d2d;">
-          Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from
-          your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs,
-          smartphones, tablets, streaming media players and game consoles. <br>
-
-          You can also download your favourite shows with the iOS or Android app. Use downloads to watch while you're on
-          the go and without an internet connection. Take Netflix with you anywhere.
-        </div>
-      </div>
-      <!-- faq-4  -->
-      <div
-        style=" margin: 10px 0px 10px 0px;display: flex; align-items: center; justify-content: space-between; height: 90px; width: 80vw; font-size: 27px; font-weight: 400; text-align: left; background-color: #2d2d2d; border: none; border-radius: 1px"
-        class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4"
-        aria-expanded="false" aria-controls="collapseExample4" fdprocessedid="5ub9c">
-        How do I cancel?
-        <img style="height: 27px;" src="plus.png" alt="plus">
-      </div>
-
-      <div class="collapse" id="collapseExample4"
-        style=" border: none; border-radius: 0px; height: 90px; width: 80vw; color: #ffffff; font-size: 27px; font-weight: 400;">
-        <div class="card card-body" style="background-color: #2d2d2d;">
-          Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account
-          online in two clicks. There are no cancellation fees – start or stop your account anytime.
-        </div>
-      </div>
-      <!-- faq-5  -->
-      <div
-        style=" margin: 10px 0px 10px 0px;display: flex; align-items: center; justify-content: space-between; height: 90px; width: 80vw; font-size: 27px; font-weight: 400; text-align: left; background-color: #2d2d2d; border: none; border-radius: 1px"
-        class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5"
-        aria-expanded="false" aria-controls="collapseExample5" fdprocessedid="5ub9c">
-        What can I watch on Netflix?
-        <img style="height: 27px;" src="plus.png" alt="plus">
-      </div>
-
-      <div class="collapse" id="collapseExample5"
-        style=" border: none; border-radius: 0px; height: 90px; width: 80vw; color: #ffffff; font-size: 27px; font-weight: 400;">
-        <div class="card card-body" style="background-color: #2d2d2d;">
-          Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix
-          originals, and more. Watch as much as you want, anytime you want.
-        </div>
-      </div>
-
-      <!-- faq-6 -->
-      <div
-        style=" margin: 10px 0px 10px 0px;display: flex; align-items: center; justify-content: space-between; height: 90px; width: 80vw; font-size: 27px; font-weight: 400; text-align: left; background-color: #2d2d2d; border: none; border-radius: 1px"
-        class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample6"
-        aria-expanded="false" aria-controls="collapseExample6" fdprocessedid="5ub9c">
-        Is Netflix good for kids?
-        <img style="height: 27px;" src="plus.png" alt="plus">
-      </div>
-
-      <div class="collapse" id="collapseExample6"
-        style=" border: none; border-radius: 0px; height: 90px; width: 80vw; color: #ffffff; font-size: 27px; font-weight: 400;">
-        <div class="card card-body" style="background-color: #2d2d2d;">
-          The Netflix Kids experience is included in your membership to give parents control while kids enjoy
-          family-friendly TV shows and films in their own space. <br>
-
-          Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content
-          kids can watch and block specific titles you don’t want kids to see.
-        </div>
-      </div>
-
+    </div>
   </section>
-
+  <div class="separation"></div>
 
   <!-- footer section -->
   <footer>
-
+    <span>Questions? Call 000-800-919-1694</span>
+    <div class="footer">
+      <div class="footer-item">
+        <a class="footerLink" href="">FAQ</a>
+        <a class="footerLink" href="">Investor Relations</a>
+        <a class="footerLink" href="">Privacy</a>
+        <a class="footerLink" href="">Speed Test</a>
+        <div class="language">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img src="translate.png" alt="" style="width: 16px; height: 16px" />
+              English
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#">English</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="hindi.html">हिंदी</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <span id="netflixIndia">Netflix India</span>
+      </div>
+      <div class="footer-item">
+        <a class="footerLink" href="">Help Centre</a>
+        <a class="footerLink" href="">Jobs</a>
+        <a class="footerLink" href="">Cookie Preferences</a>
+        <a class="footerLink" href=""> Legal Notices</a>
+      </div>
+      <div class="footer-item">
+        <a class="footerLink" href="">Account</a>
+        <a class="footerLink" href="">Ways to Watch</a>
+        <a class="footerLink" href="">Corporate Information</a>
+        <a class="footerLink" href="">Only on Netflix</a>
+      </div>
+      <div class="footer-item">
+        <a class="footerLink" href=""> Media Centre</a>
+        <a class="footerLink" href=""> Terms of Use</a>
+        <a class="footerLink" href="">Contact Us</a>
+      </div>
+    </div>
+    <div style="text-align: center">
+      @Copyright.All Rights Reserved. Deepak Kuamar Majhi
+    </div>
   </footer>
 
   <!-- javascript code -->
@@ -276,8 +290,23 @@
     function goSignUp() {
       window.location.href = "browse.html";
     }
+
+    // faq section
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
   </script>
 </body>
 
 </html>
-
